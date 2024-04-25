@@ -41,19 +41,19 @@ h2 {
   font-size: 40px;
 }
 
-.navegador {
+nav {
   background-color: blue;
   color: red;
   font-family: sans-serif;
 }
 
-.navegador a {
-  color: yellow;
-  text-decoration: none;
+nav ul {
+  list-style-type: none;
 }
 
-.navegador ul {
-  list-style-type: none;
+nav ul li a {
+  color: yellow;
+  text-decoration: none;
 }
 
 .fondo-papel {
@@ -69,7 +69,7 @@ h2 {
   align-items: center;
 }
 
-.zoom {
+.zoom-bazar .zoom {
   border: gray solid 2px;
   display: flex;
   flex-direction: column;
@@ -82,11 +82,12 @@ h2 {
   margin: 2px;
 }
 
-.zoom img {
+.zoom-bazar .zoom img {
   height: 150px;
+  /*border: dotted 3px black;*/
 }
 
-.button {
+.zoom-bazar .zoom .button {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
@@ -99,8 +100,14 @@ h2 {
   border: #1a21e4 solid 2px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: repeat(2,150px);*/
+  /*column-gap: 20px ;*/
+  /* row-gap: 20px ; */
+  /* eje vertical */
   align-items: center;
+  /* eje horizontal*/
   justify-items: center;
+  /*height: 500px;*/
   justify-content: center;
   align-content: center;
   background-color: #c6cbc9;
@@ -133,70 +140,71 @@ h2 {
   align-items: center;
 }
 
-.grid-galeria {
+.main-galeria .grid-galeria {
   display: grid;
-  grid-template-areas: "img1 img1 img2 img2"
+  grid-template-areas:
+    "img1 img1 img2 img2"
     "img3 img4 img4 img5"
     "img3 img6 img6 img5";
   grid-template-rows: repeat(3, 200px);
   grid-template-columns: repeat(4, 300px);
 }
 
-.grid-galeria div {
+.main-galeria .grid-galeria div {
   overflow: hidden;
 }
 
-.img-1 {
+.main-galeria .grid-galeria div .img-1 {
   grid-area: img1;
   background-color: aqua;
 }
 
-.img-1 img {
+.main-galeria .grid-galeria div .img-1 img {
   width: 100%;
 }
 
-.img-2 {
+.main-galeria .grid-galeria div .img-2 {
   grid-area: img2;
   background-color: blueviolet;
 }
 
-.img-2 img {
+.main-galeria .grid-galeria div .img-2 img {
   width: 100%;
 }
 
-.img-3 {
+.main-galeria .grid-galeria div .img-3 {
   grid-area: img3;
   background-color: brown;
 }
 
-.img-3 img {
+.main-galeria .grid-galeria div .img-3 img {
   height: 100%;
 }
 
-.img-4 {
+.main-galeria .grid-galeria div .img-4 {
   grid-area: img4;
   background-color: blue;
 }
 
-.img-4 img {
+.main-galeria .grid-galeria div .img-4 img {
   width: 100%;
 }
 
-.img-5 {
+.main-galeria .grid-galeria div .img-5 {
   grid-area: img5;
   background-color: chartreuse;
 }
 
-.img-5 img {
+.main-galeria .grid-galeria div .img-5 img {
   height: 100%;
 }
 
-.img-6 {
+.main-galeria .grid-galeria div .img-6 {
   grid-area: img6;
   background-color: chocolate;
 }
 
-.img-6 img {
+.main-galeria .grid-galeria div .img-6 img {
   width: 100%;
 }
 
@@ -211,13 +219,6 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: azure;
   color: #0a0a3c;
-}
-
-.main-pf a:hover {
-  font-weight: bold;
-  padding: 20px;
-  background-color: #0a0a3c;
-  color: azure;
 }
 
 .main-pf a:hover {
