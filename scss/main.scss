@@ -32,8 +32,6 @@ h2 {
 
 }
 
-
-
 .verde {
     background-color: aqua;
     color: black;
@@ -51,8 +49,8 @@ h2 {
 nav {
     background-color: blue;
     color: red;
-    font-family: sans-serif
-    ul {
+
+    font-family: sans-serif ul {
         list-style-type: none;
 
         li {
@@ -68,55 +66,41 @@ nav {
     background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a")
 }
 
-
-
-
-
-
-
-
-
 .zoom-bazar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* border: solid red 3px; */
-    /*min-height: 650px;*/
     align-content: flex-start;
-    /*width: 650px;*/
     align-items: center;
 
+    .zoom {
+        border: gray solid 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: monospace;
+        box-shadow: 1px 1px 5px 1px gray;
+        border-radius: 15px;
+        padding: 10px;
+        padding-bottom: 10px;
+        margin: 2px;
 
-}
+        img {
+            height: 150px;
+            /*border: dotted 3px black;*/
 
-.zoom {
-    border: gray solid 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: monospace;
-    box-shadow: 1px 1px 5px 1px gray;
-    border-radius: 15px;
-    padding: 10px;
-    padding-bottom: 10px;
-    margin: 2px;
+        }
 
-}
-
-.zoom img {
-    height: 150px;
-    /*border: dotted 3px black;*/
-
-}
-
-.button {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    background-color: black;
-    color: aliceblue;
-    font-family: sans-serif;
+        .button {
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: black;
+            color: aliceblue;
+            font-family: sans-serif;
+        }
+    }
 }
 
 .celulares {
@@ -135,104 +119,104 @@ nav {
     align-content: center;
     background-color: rgb(198, 203, 201);
     padding: 15px;
-}
 
-.celulares div {
-    border: black solid 3px;
-    border-radius: 20px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
-    padding: 8px;
-    box-shadow: 2px 2px 2px 2px green;
-}
+    . div {
+        border: black solid 3px;
+        border-radius: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        padding: 8px;
+        box-shadow: 2px 2px 2px 2px green;
 
-.celulares div img {
-    height: 150px;
-}
+        img {
+            height: 150px;
+        }
 
-.celulares div p {
-    font-size: 1rem;
-}
+        p {
+            font-size: 1rem;
+        }
 
+    }
+}
 
 .main-galeria {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.grid-galeria {
-    display: grid;
-    grid-template-areas:
-        "img1 img1 img2 img2"
-        "img3 img4 img4 img5"
-        "img3 img6 img6 img5"
-    ;
-    grid-template-rows: repeat(3, 200px);
-    grid-template-columns: repeat(4, 300px);
-}
+    .grid-galeria {
+        display: grid;
+        grid-template-areas:
+            "img1 img1 img2 img2"
+            "img3 img4 img4 img5"
+            "img3 img6 img6 img5"
+        ;
+        grid-template-rows: repeat(3, 200px);
+        grid-template-columns: repeat(4, 300px);
 
-.grid-galeria div {
-    overflow: hidden;
-}
+        div {
+            overflow: hidden;
 
-.img-1 {
-    grid-area: img1;
-    background-color: aqua;
-}
+            .img-1 {
+                grid-area: img1;
+                background-color: aqua;
 
-.img-1 img {
-    width: 100%;
-}
+                img {
+                    width: 100%;
+                }
+            }
 
-.img-2 {
-    grid-area: img2;
-    background-color: blueviolet;
-}
+            .img-2 {
+                grid-area: img2;
+                background-color: blueviolet;
 
-.img-2 img {
-    width: 100%;
-}
+                img {
+                    width: 100%;
+                }
+            }
 
-.img-3 {
-    grid-area: img3;
-    background-color: brown;
-}
+            .img-3 {
+                grid-area: img3;
+                background-color: brown;
 
-.img-3 img {
-    height: 100%;
-}
+                img {
+                    height: 100%;
+                }
+            }
 
-.img-4 {
-    grid-area: img4;
-    background-color: blue;
-}
+            .img-4 {
+                grid-area: img4;
+                background-color: blue;
 
-.img-4 img {
-    width: 100%;
-}
+                img {
+                    width: 100%;
+                }
+            }
 
-.img-5 {
-    grid-area: img5;
-    background-color: chartreuse;
-}
+            .img-5 {
+                grid-area: img5;
+                background-color: chartreuse;
 
-.img-5 img {
-    height: 100%;
-}
+                img {
+                    height: 100%;
+                }
+            }
 
-.img-6 {
-    grid-area: img6;
-    background-color: chocolate;
-}
+            .img-6 {
+                grid-area: img6;
+                background-color: chocolate;
 
-.img-6 img {
-    width: 100%;
-}
+                img {
+                    width: 100%;
+                }
+            }
 
+        }
+    }
+}
 
 .main-pf div {
     border: solid grey 1px;
@@ -257,14 +241,6 @@ nav {
     color: azure;
 }
 
-.main-pf a:hover {
-
-    font-weight: bold;
-    padding: 20px;
-    background-color: #0a0a3c;
-    color: azure;
-}
-
 .main-pf a:active {
 
     background-color: yellow;
@@ -276,9 +252,6 @@ nav {
     background-color: darkslategrey;
     color: #999;
 }
-
-
-
 
 .main-pf div:not(.padre) {
     padding-left: 40px;
@@ -298,10 +271,10 @@ nav {
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color: #0d6efd !important;
-}
 
-.bg-body-tertiary a {
-    color: yellow;
+    a {
+        color: yellow;
+    }
 }
 
 .navbar-nav .nav-link.active,
@@ -343,12 +316,14 @@ nav {
         ;
         grid-template-rows: repeat(3, 200px);
         grid-template-columns: repeat(2, 200px);
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
-    .grid-galeria img {
-        width: 100%;
-        height: 100%;
-    }
+
 }
 
 
@@ -364,12 +339,14 @@ nav {
         ;
         grid-template-rows: repeat(6, 200px);
         grid-template-columns: 1fr;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
-    .grid-galeria img {
-        width: 100%;
-        height: 100%;
-    }
+
 }
 
 @media(max-width: 375px) {
