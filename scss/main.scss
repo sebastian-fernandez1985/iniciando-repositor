@@ -110,20 +110,14 @@ nav {
     border: rgb(26, 33, 228) solid 2px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*grid-template-rows: repeat(2,150px);*/
-    /*column-gap: 20px ;*/
-    /* row-gap: 20px ; */
-    /* eje vertical */
     align-items: center;
-    /* eje horizontal*/
     justify-items: center;
-    /*height: 500px;*/
     justify-content: center;
     align-content: center;
     background-color: rgb(198, 203, 201);
     padding: 15px;
 
-     div {
+    div {
         border: black solid 3px;
         border-radius: 20px;
         margin: 10px;

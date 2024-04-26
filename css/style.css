@@ -80,14 +80,8 @@ nav {
   border: #1a21e4 solid 2px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /*grid-template-rows: repeat(2,150px);*/
-  /*column-gap: 20px ;*/
-  /* row-gap: 20px ; */
-  /* eje vertical */
   align-items: center;
-  /* eje horizontal*/
   justify-items: center;
-  /*height: 500px;*/
   justify-content: center;
   align-content: center;
   background-color: #c6cbc9;
