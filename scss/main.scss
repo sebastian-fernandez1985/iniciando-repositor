@@ -1,27 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+@import "./utilities/colors";
+@import "./utilities/fonts";
+@import "./utilities/reset";
 
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", sans-serif;
-    box-sizing: border-box;
-}
+@import "./sections/header";
+@import "./sections/index";
+@import "./sections/footer";
+@import "./sections/contactos";
+@import "./sections/galeria";
+@import "./sections/nosotros";
+@import "./sections/servicios";
 
 h1 {
-    color: blue;
+    color: $celefixy;
     background-color: blanchedalmond;
     text-align: center;
     position: sticky;
     top: 0;
     width: 100%;
+    font-family: $fuente-titulo;
 
 }
 
 h2 {
-    background-color: rgb(7, 206, 241);
+    background-color: $celefixy;
     color: black;
     text-align: center;
+    font-family: $fuente-secundaria;
 }
 
 .redes {
@@ -46,98 +51,14 @@ h2 {
     font-size: 40px;
 }
 
-nav {
-    background-color: blue;
-    color: red;
 
-    font-family: sans-serif;
-
-    ul {
-        list-style-type: none;
-        background-color: blue;
-
-        li {
-            a {
-                color: yellow;
-                text-decoration: none;
-            }
-        }
-    }
-}
 
 .fondo-papel {
     background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a")
 }
 
-.zoom-bazar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    align-items: center;
 
-    .zoom {
-        border: gray solid 2px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family: monospace;
-        box-shadow: 1px 1px 5px 1px gray;
-        border-radius: 15px;
-        padding: 10px;
-        padding-bottom: 10px;
-        margin: 2px;
 
-        img {
-            height: 150px;
-            /*border: dotted 3px black;*/
-
-        }
-
-        .button {
-            padding: 5px;
-            margin: 5px;
-            border-radius: 5px;
-            background-color: black;
-            color: aliceblue;
-            font-family: sans-serif;
-        }
-    }
-}
-
-.celulares {
-    border: rgb(26, 33, 228) solid 2px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    background-color: rgb(198, 203, 201);
-    padding: 15px;
-
-    div {
-        border: black solid 3px;
-        border-radius: 20px;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 150px;
-        padding: 8px;
-        box-shadow: 2px 2px 2px 2px green;
-
-        img {
-            height: 150px;
-        }
-
-        p {
-            font-size: 1rem;
-        }
-
-    }
-}
 
 .main-galeria {
     display: flex;
@@ -225,7 +146,7 @@ nav {
 
     display: inline-block;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $fuente-secundaria;
     background-color: azure;
     color: #0a0a3c;
 }
@@ -259,11 +180,7 @@ nav {
     color: orange;
 }
 
-.footer {
-    background-color: black;
-    display: flex;
-    justify-content: space-evenly
-}
+
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
@@ -274,10 +191,7 @@ nav {
     }
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-    color: yellow;
-}
+
 
 @media (max-width:1023px) {
     .grid-galeria {
@@ -295,7 +209,7 @@ nav {
 @media (max-width: 780px) {
     h1 {
         background-color: aqua;
-        font-family: sans-serif;
+        font-family: $fuente-titulo;
         width: 100%;
     }
 
