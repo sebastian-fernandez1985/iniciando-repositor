@@ -1,5 +1,5 @@
-.main-pf{
-    h1{
+.main-pf {
+    h1 {
         text-align: center;
         color: $celefixy;
         font-family: $fuente-titulo;
@@ -8,9 +8,11 @@
         top: 0;
         width: 100%;
     }
-} div {
-    border: solid grey 1px;
-    padding: 10px;
+}
+
+div {
+     border: solid grey 1px;
+     padding: 10px;
 }
 
 
@@ -51,4 +53,3 @@
     font-weight: bold;
     color: orange;
 }
-
