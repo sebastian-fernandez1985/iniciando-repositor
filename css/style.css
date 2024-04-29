@@ -228,12 +228,12 @@ div {
   font-weight: bold;
   color: orange; }
 
+#fixy {
+  font-size: 40px; }
+
 .verde {
   background-color: aqua;
   color: black; }
 
 .bordes-redondos {
   border-radius: 2030px; }
-
-#fixy {
-  font-size: 40px; }
