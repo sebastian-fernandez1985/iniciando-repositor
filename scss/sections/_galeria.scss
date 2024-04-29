@@ -73,3 +73,57 @@
         }
     }
 }
+@media (max-width:1023px) {
+    .grid-galeria {
+        grid-template-areas:
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+        ;
+        grid-template-rows: repeat(3, 200px);
+        grid-template-columns: repeat(2, 200px);
+    }
+
+}
+
+@media(max-width:775px) {
+    .grid-galeria {
+        grid-template-areas:
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+        ;
+        grid-template-rows: repeat(3, 200px);
+        grid-template-columns: repeat(2, 200px);
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
+
+
+@media(max-width:419px) {
+    .grid-galeria {
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+        ;
+        grid-template-rows: repeat(6, 200px);
+        grid-template-columns: 1fr;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}

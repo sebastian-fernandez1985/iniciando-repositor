@@ -88,3 +88,22 @@
         color: $amarifixy;
     }
 }
+
+@media (max-width: 780px) {
+    h1 {
+        background-color: aqua;
+        font-family: $fuente-titulo;
+        width: 100%;
+    }
+
+    .celulares {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media(max-width: 375px) {
+    .celulares {
+        grid-template-columns: 1fr;
+    }
+}
