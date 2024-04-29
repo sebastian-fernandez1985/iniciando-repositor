@@ -3,22 +3,8 @@
     flex-direction: column;
     align-items: center;
 
-    h1 {
-        text-align: center;
-        color: $celefixy;
-        font-family: $fuente-titulo;
-        background-color: blanchedalmond;
-        position: sticky;
-        top: 0;
-        width: 100%;
-    }
 
     .grid-galeria {
-
-
-
-
-
         display: grid;
         grid-template-areas:
             "img1 img1 img2 img2"

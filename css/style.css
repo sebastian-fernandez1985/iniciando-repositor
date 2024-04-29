@@ -5,6 +5,15 @@
   font-family: "Lato", sans-serif;
   box-sizing: border-box; }
 
+h1 {
+  text-align: center;
+  color: #1877F2;
+  font-family: "Rubik Distressed", system-ui;
+  background-color: blanchedalmond;
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
 .header nav {
   background-color: #1877F2;
   color: red;
@@ -129,14 +138,6 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .main-galeria h1 {
-    text-align: center;
-    color: #1877F2;
-    font-family: "Rubik Distressed", system-ui;
-    background-color: blanchedalmond;
-    position: sticky;
-    top: 0;
-    width: 100%; }
   .main-galeria .grid-galeria {
     display: grid;
     grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img5" "img3 img6 img6 img5";
