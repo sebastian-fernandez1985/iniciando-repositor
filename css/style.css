@@ -110,18 +110,33 @@
   justify-content: space-around;
   flex-direction: row; }
 
+.main-contactos h2 {
+  background-color: #1877F2;
+  color: black;
+  text-align: center;
+  font-family: "Parisienne", cursive; }
+
+.main-contactos h1 {
+  text-align: center;
+  color: #1877F2;
+  font-family: "Rubik Distressed", system-ui;
+  background-color: blanchedalmond;
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
 .main-galeria {
   display: flex;
   flex-direction: column;
   align-items: center; }
   .main-galeria h1 {
-    color: #1877F2;
-    background-color: blanchedalmond;
     text-align: center;
+    color: #1877F2;
+    font-family: "Rubik Distressed", system-ui;
+    background-color: blanchedalmond;
     position: sticky;
     top: 0;
-    width: 100%;
-    font-family: "Rubik Distressed", system-ui; }
+    width: 100%; }
   .main-galeria .grid-galeria {
     display: grid;
     grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img5" "img3 img6 img6 img5";
@@ -160,10 +175,28 @@
         .main-galeria .grid-galeria div .img-6 img {
           width: 100%; }
 
-.fondo-papel {
+.main-nosotros h1 {
+  text-align: center;
+  color: #1877F2;
+  font-family: "Rubik Distressed", system-ui;
+  background-color: blanchedalmond;
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
+.main-nosotros .fondo-papel {
   background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a"); }
 
-.main-pf div {
+.main-pf h1 {
+  text-align: center;
+  color: #1877F2;
+  font-family: "Rubik Distressed", system-ui;
+  background-color: blanchedalmond;
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
+div {
   border: solid grey 1px;
   padding: 10px; }
 
@@ -194,12 +227,6 @@
 .padre div:nth-child(1) {
   font-weight: bold;
   color: orange; }
-
-h2 {
-  background-color: #1877F2;
-  color: black;
-  text-align: center;
-  font-family: "Parisienne", cursive; }
 
 .verde {
   background-color: aqua;

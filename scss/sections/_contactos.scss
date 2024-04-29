@@ -3,6 +3,23 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-} 
- }
- 
+    }
+
+    h2 {
+        background-color: $celefixy;
+        color: black;
+        text-align: center;
+        font-family: $fuente-secundaria;
+    }
+
+    h1 {
+        text-align: center;
+        color: $celefixy;
+        font-family: $fuente-titulo;
+        background-color: blanchedalmond;
+        position: sticky;
+        top: 0;
+        width: 100%;
+
+    }
+}

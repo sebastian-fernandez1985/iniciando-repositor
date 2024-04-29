@@ -4,16 +4,21 @@
     align-items: center;
 
     h1 {
-        color: $celefixy;
-        background-color: blanchedalmond;
         text-align: center;
+        color: $celefixy;
+        font-family: $fuente-titulo;
+        background-color: blanchedalmond;
         position: sticky;
         top: 0;
         width: 100%;
-        font-family: $fuente-titulo;
     }
 
     .grid-galeria {
+
+
+
+
+
         display: grid;
         grid-template-areas:
             "img1 img1 img2 img2"
@@ -24,6 +29,7 @@
         grid-template-columns: repeat(4, 300px);
 
         div {
+
             overflow: hidden;
 
             .imag-1 {
@@ -79,8 +85,8 @@
                     width: 100%;
                 }
             }
-
-
         }
+
+
     }
 }
