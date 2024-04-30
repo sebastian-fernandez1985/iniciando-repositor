@@ -143,37 +143,37 @@ h1 {
     grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img5" "img3 img6 img6 img5";
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(4, 300px); }
-    .main-galeria .grid-galeria div {
+    .main-galeria .grid-galeria > div {
       overflow: hidden; }
-      .main-galeria .grid-galeria div .img-1 {
+      .main-galeria .grid-galeria > div.img-1 {
         grid-area: img1;
         background-color: aqua; }
-        .main-galeria .grid-galeria div .img-1 img {
+        .main-galeria .grid-galeria > div.img-1 img {
           width: 100%; }
-      .main-galeria .grid-galeria div .img-2 {
+      .main-galeria .grid-galeria > div.img-2 {
         grid-area: img2;
         background-color: blueviolet; }
-        .main-galeria .grid-galeria div .img-2 img {
+        .main-galeria .grid-galeria > div.img-2 img {
           width: 100%; }
-      .main-galeria .grid-galeria div .img-3 {
+      .main-galeria .grid-galeria > div.img-3 {
         grid-area: img3;
         background-color: brown; }
-        .main-galeria .grid-galeria div .img-3 img {
+        .main-galeria .grid-galeria > div.img-3 img {
           height: 100%; }
-      .main-galeria .grid-galeria div .img-4 {
+      .main-galeria .grid-galeria > div.img-4 {
         grid-area: img4;
         background-color: blue; }
-        .main-galeria .grid-galeria div .img-4 img {
+        .main-galeria .grid-galeria > div.img-4 img {
           width: 100%; }
-      .main-galeria .grid-galeria div .img-5 {
+      .main-galeria .grid-galeria > div.img-5 {
         grid-area: img5;
         background-color: chartreuse; }
-        .main-galeria .grid-galeria div .img-5 img {
+        .main-galeria .grid-galeria > div.img-5 img {
           height: 100%; }
-      .main-galeria .grid-galeria div .img-6 {
+      .main-galeria .grid-galeria > div.img-6 {
         grid-area: img6;
         background-color: chocolate; }
-        .main-galeria .grid-galeria div .img-6 img {
+        .main-galeria .grid-galeria > div.img-6 img {
           width: 100%; }
 
 .carrucel {
