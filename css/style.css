@@ -182,9 +182,9 @@ h1 {
   .carrucel div {
     overflow: hidden; }
     .carrucel div img {
-      height: 250px;
-      align-items: center;
-      margin: 10px; }
+      height: 500px;
+      width: 500px;
+      align-items: center; }
 
 .main-nosotros h1 {
   text-align: center;

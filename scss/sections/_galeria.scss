@@ -5,11 +5,11 @@
 
 
     .grid-galeria {
-        display: grid;
+        display: grid ;
         grid-template-areas:
             "img1 img1 img2 img2"
             "img3 img4 img4 img5"
-            "img3 img6 img6 img5"
+            "img3 img6 img6 img5" 
         ;
         grid-template-rows: repeat(3, 200px);
         grid-template-columns: repeat(4, 300px);
@@ -74,16 +74,21 @@
         }
     }
 }
-.carrucel{ display: flex;
-    align-items: center;
-    div{
-        overflow: hidden;
-         img{
-        height: 250px;
-        align-items: center;
-        margin: 10px;
 
+.carrucel {
+    display: flex;
+    align-items: center;
+
+    div {
+        overflow: hidden;
+
+        img {
+            height: 500px;
+            width: 500px;
+            align-items: center;
+
+
+        }
     }
-    }
-   
+
 }
