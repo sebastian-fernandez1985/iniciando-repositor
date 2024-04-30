@@ -145,15 +145,15 @@ h1 {
     grid-template-columns: repeat(4, 300px); }
     .main-galeria .grid-galeria div {
       overflow: hidden; }
-      .main-galeria .grid-galeria div .imag-1 {
+      .main-galeria .grid-galeria div .img-1 {
         grid-area: img1;
         background-color: aqua; }
-        .main-galeria .grid-galeria div .imag-1 img {
+        .main-galeria .grid-galeria div .img-1 img {
           width: 100%; }
-      .main-galeria .grid-galeria div .imag-2 {
+      .main-galeria .grid-galeria div .img-2 {
         grid-area: img2;
         background-color: blueviolet; }
-        .main-galeria .grid-galeria div .imag-2 img {
+        .main-galeria .grid-galeria div .img-2 img {
           width: 100%; }
       .main-galeria .grid-galeria div .img-3 {
         grid-area: img3;
@@ -228,13 +228,3 @@ div {
 .padre div:nth-child(1) {
   font-weight: bold;
   color: orange; }
-
-#fixy {
-  font-size: 40px; }
-
-.verde {
-  background-color: aqua;
-  color: black; }
-
-.bordes-redondos {
-  border-radius: 2030px; }
