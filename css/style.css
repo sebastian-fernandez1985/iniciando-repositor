@@ -176,6 +176,16 @@ h1 {
         .main-galeria .grid-galeria div .img-6 img {
           width: 100%; }
 
+.carrucel {
+  display: flex;
+  align-items: center; }
+  .carrucel div {
+    overflow: hidden; }
+    .carrucel div img {
+      height: 250px;
+      align-items: center;
+      margin: 10px; }
+
 .main-nosotros h1 {
   text-align: center;
   color: #1877F2;
