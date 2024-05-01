@@ -1,4 +1,12 @@
 .main-contactos {
+    .camioneta { img{
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        align-items: center; 
+    }
+        
+    }
     .redes {
         display: flex;
         justify-content: space-around;

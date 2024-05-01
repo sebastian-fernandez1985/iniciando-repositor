@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: center;
+    @extend .gradiente-horizontal; 
 
     .zoom {
         border: gray solid 2px;
@@ -32,7 +33,10 @@
 
         img {
             height: 150px;
-            
+            &:hover{
+                transform: scale(1.5);
+                transition: 0.3s;
+            }
 
         }
 
@@ -71,6 +75,10 @@
 
         img {
             height: 150px;
+            &:hover{
+                transform: scale(1.5);
+                transition: 0.3s;
+            }
         }
 
         p {

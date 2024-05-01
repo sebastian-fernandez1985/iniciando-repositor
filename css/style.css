@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Rubik+Distressed&display=swap");
+.gradiente-horizontal, .zoom-bazar {
+  background-image: linear-gradient(#1877F2, #F5C33B); }
+
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +67,9 @@ h1 {
     margin: 2px; }
     .zoom-bazar .zoom img {
       height: 150px; }
+      .zoom-bazar .zoom img:hover {
+        transform: scale(1.5);
+        transition: 0.3s; }
     .zoom-bazar .zoom .button {
       padding: 5px;
       margin: 5px;
@@ -94,6 +100,9 @@ h1 {
     box-shadow: 2px 2px 2px 2px green; }
     .celulares div img {
       height: 150px; }
+      .celulares div img:hover {
+        transform: scale(1.5);
+        transition: 0.3s; }
     .celulares div p {
       font-size: 1rem; }
 
@@ -119,6 +128,12 @@ h1 {
   background-color: black;
   display: flex;
   justify-content: space-evenly; }
+
+.main-contactos .camioneta img {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center; }
 
 .main-contactos .redes {
   display: flex;
