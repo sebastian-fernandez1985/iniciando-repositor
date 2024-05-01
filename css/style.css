@@ -14,6 +14,12 @@ h1 {
   top: 0;
   width: 100%; }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .header nav {
   background-color: #1877F2;
   color: red;
@@ -140,41 +146,41 @@ h1 {
   align-items: center; }
   .main-galeria .grid-galeria {
     display: grid;
-    grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img5" "img3 img6 img6 img5";
+    grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img6" "img3 img5 img5 img6";
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(4, 300px); }
-    .main-galeria .grid-galeria > div {
-      overflow: hidden; }
-      .main-galeria .grid-galeria > div.img-1 {
-        grid-area: img1;
-        background-color: aqua; }
-        .main-galeria .grid-galeria > div.img-1 img {
-          width: 100%; }
-      .main-galeria .grid-galeria > div.img-2 {
-        grid-area: img2;
-        background-color: blueviolet; }
-        .main-galeria .grid-galeria > div.img-2 img {
-          width: 100%; }
-      .main-galeria .grid-galeria > div.img-3 {
-        grid-area: img3;
-        background-color: brown; }
-        .main-galeria .grid-galeria > div.img-3 img {
-          height: 100%; }
-      .main-galeria .grid-galeria > div.img-4 {
-        grid-area: img4;
-        background-color: blue; }
-        .main-galeria .grid-galeria > div.img-4 img {
-          width: 100%; }
-      .main-galeria .grid-galeria > div.img-5 {
-        grid-area: img5;
-        background-color: chartreuse; }
-        .main-galeria .grid-galeria > div.img-5 img {
-          height: 100%; }
-      .main-galeria .grid-galeria > div.img-6 {
-        grid-area: img6;
-        background-color: chocolate; }
-        .main-galeria .grid-galeria > div.img-6 img {
-          width: 100%; }
+    .main-galeria .grid-galeria .img-1 {
+      grid-area: img1;
+      background-color: cadetblue; }
+      .main-galeria .grid-galeria .img-1 img {
+        width: 100%; }
+    .main-galeria .grid-galeria .img-2 {
+      grid-area: img2;
+      background-color: red; }
+      .main-galeria .grid-galeria .img-2 img {
+        width: 100%; }
+    .main-galeria .grid-galeria .img-3 {
+      grid-area: img3;
+      background-color: brown; }
+      .main-galeria .grid-galeria .img-3 img {
+        height: 100%; }
+    .main-galeria .grid-galeria .img-4 {
+      grid-area: img4;
+      background-color: blue; }
+      .main-galeria .grid-galeria .img-4 img {
+        width: 100%; }
+    .main-galeria .grid-galeria .img-5 {
+      grid-area: img5;
+      background-color: chartreuse; }
+      .main-galeria .grid-galeria .img-5 img {
+        width: 100%;
+        height: 100%; }
+    .main-galeria .grid-galeria .img-6 {
+      grid-area: img6;
+      background-color: chocolate; }
+      .main-galeria .grid-galeria .img-6 img {
+        height: 100%;
+        width: 100%; }
 
 .carrucel {
   display: flex;

@@ -7,70 +7,69 @@
         display: grid;
         grid-template-areas:
             "img1 img1 img2 img2"
-            "img3 img4 img4 img5"
-            "img3 img6 img6 img5";
+            "img3 img4 img4 img6"
+            "img3 img5 img5 img6";
         grid-template-rows: repeat(3, 200px);
         grid-template-columns: repeat(4, 300px);
 
-        > div {
-            overflow: hidden;
+        .img-1 {
+            grid-area: img1;
+            background-color: cadetblue;
 
-            &.img-1 {
-                grid-area: img1;
-                background-color: aqua;
-
-                img {
-                    width: 100%;
-                }
+            img {
+                width: 100%;
             }
+        }
 
-            &.img-2 {
-                grid-area: img2;
-                background-color: blueviolet;
+        .img-2 {
+            grid-area: img2;
+            background-color: red;
 
-                img {
-                    width: 100%;
-                }
+            img {
+                width: 100%;
             }
+        }
 
-            &.img-3 {
-                grid-area: img3;
-                background-color: brown;
+        .img-3 {
+            grid-area: img3;
+            background-color: brown;
 
-                img {
-                    height: 100%;
-                }
+            img {
+                height: 100%;
             }
+        }
 
-            &.img-4 {
-                grid-area: img4;
-                background-color: blue;
+        .img-4 {
+            grid-area: img4;
+            background-color: blue;
 
-                img {
-                    width: 100%;
-                }
+            img {
+                width: 100%;
             }
+        }
 
-            &.img-5 {
-                grid-area: img5;
-                background-color: chartreuse;
+        .img-5 {
+            grid-area: img5;
+            background-color: chartreuse;
 
-                img {
-                    height: 100%;
-                }
+            img {
+                width: 100%;
+                height: 100%;
             }
+        }
 
-            &.img-6 {
-                grid-area: img6;
-                background-color: chocolate;
+        .img-6 {
+            grid-area: img6;
+            background-color: chocolate;
 
-                img {
-                    width: 100%;
-                }
+            img {
+                height: 100%;
+                width: 100%;
             }
         }
     }
 }
+
 
 
 
