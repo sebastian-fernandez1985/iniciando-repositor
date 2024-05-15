@@ -171,11 +171,20 @@ h1 {
     position: sticky;
     top: 0;
     width: 100%; }
-  .main-contactos section form {
+  .main-contactos section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; }
+    align-items: center; }
+    .main-contactos section div a {
+      height: 500%;
+      width: 500%; }
+    .main-contactos section img {
+      max-width: 20%;
+      height: 20%; }
+    .main-contactos section form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
 
 .main-galeria {
   display: flex;

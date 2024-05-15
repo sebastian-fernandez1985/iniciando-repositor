@@ -1,13 +1,16 @@
 .main-contactos {
     min-height: 84vh;
-    .camioneta { img{
-        height: 50px;
-        width: 50px;
-        justify-content: center;
-        align-items: center; 
+
+    .camioneta {
+        img {
+            height: 50px;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+
     }
-        
-    }
+
     .redes {
         display: flex;
         justify-content: space-around;
@@ -31,13 +34,28 @@
         width: 100%;
 
     }
-    section{
-        form{
-           
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         text-align: center;
+
+    section {
+        display: flex;
+        align-items: center;
+        div{a{
+            height: 500%;
+            width: 500%;
+             
+        }}
+        img {
+            max-width: 20%;
+            height: 20%;
+        }
+
+        form {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+
         }
     }
 }
