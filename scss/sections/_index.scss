@@ -1,5 +1,6 @@
 .main-index {
     h1 {
+        border: none;
         text-align: center;
         color: $celefixy;
         font-family: $fuente-titulo;
@@ -20,13 +21,13 @@
     @extend .gradiente-horizontal; 
 
     .zoom {
-        border: gray solid 2px;
+        border: none;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-family: monospace;
-        box-shadow: 1px 1px 5px 1px gray;
-        border-radius: 15px;
+        box-shadow: 1px 1px 1px 1px gray;
+        
         padding: 10px;
         padding-bottom: 10px;
         margin: 2px;
@@ -43,7 +44,7 @@
         .button {
             padding: 5px;
             margin: 5px;
-            border-radius: 5px;
+            
             background-color: black;
             color: aliceblue;
             font-family: sans-serif;
@@ -52,7 +53,7 @@
 }
 
 .celulares {
-    border: rgb(26, 33, 228) solid 2px;
+    border: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -63,7 +64,7 @@
     padding: 15px;
 
     div {
-        border: black solid 3px;
+        border: none;
         border-radius: 20px;
         margin: 10px;
         display: flex;
@@ -71,7 +72,7 @@
         align-items: center;
         width: 150px;
         padding: 8px;
-        box-shadow: 2px 2px 2px 2px green;
+        box-shadow: 1px 1px 1px 1px rgb(233, 235, 233);
 
         img {
             height: 150px;
@@ -90,10 +91,10 @@
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: $celefixy !important;
+    background-color: blanchedalmond;
 
     a {
-        color: $amarifixy;
+        color: black;
     }
 }
 

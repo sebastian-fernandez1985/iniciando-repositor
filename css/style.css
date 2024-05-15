@@ -15,7 +15,9 @@ h1 {
   background-color: blanchedalmond;
   position: sticky;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  border: none;
+  align-items: center; }
 
 .flex-column {
   display: flex;
@@ -24,21 +26,37 @@ h1 {
   align-items: center; }
 
 .header nav {
-  background-color: #1877F2;
+  border: none;
+  background-color: #f3f2ee;
   color: red;
   font-family: "Rubik Distressed", system-ui; }
-  .header nav ul {
+  .header nav div div ul {
     list-style-type: none;
-    background-color: #1877F2; }
-    .header nav ul li a {
-      color: #F5C33B;
-      text-decoration: none; }
+    background-color: #f3f2ee; }
+    .header nav div div ul li a {
+      color: black;
+      text-decoration: none;
+      background-color: #f3f2ee; }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-  color: #F5C33B; }
+.navbar-nav .nav-link.show,
+.nav-link {
+  border: none;
+  color: black;
+  background-color: #f3f2ee; }
+
+.nav-item {
+  background-color: #f3f2ee; }
+
+.bg-body-tertiary {
+  background-color: #f3f2ee; }
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  align-items: center; }
 
 .main-index h1 {
+  border: none;
   text-align: center;
   color: #1877F2;
   font-family: "Rubik Distressed", system-ui;
@@ -55,13 +73,12 @@ h1 {
   align-content: flex-start;
   align-items: center; }
   .zoom-bazar .zoom {
-    border: gray solid 2px;
+    border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: monospace;
-    box-shadow: 1px 1px 5px 1px gray;
-    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px gray;
     padding: 10px;
     padding-bottom: 10px;
     margin: 2px; }
@@ -73,13 +90,12 @@ h1 {
     .zoom-bazar .zoom .button {
       padding: 5px;
       margin: 5px;
-      border-radius: 5px;
       background-color: black;
       color: aliceblue;
       font-family: sans-serif; }
 
 .celulares {
-  border: #1a21e4 solid 2px;
+  border: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -89,7 +105,7 @@ h1 {
   background-color: #c6cbc9;
   padding: 15px; }
   .celulares div {
-    border: black solid 3px;
+    border: none;
     border-radius: 20px;
     margin: 10px;
     display: flex;
@@ -97,7 +113,7 @@ h1 {
     align-items: center;
     width: 150px;
     padding: 8px;
-    box-shadow: 2px 2px 2px 2px green; }
+    box-shadow: 1px 1px 1px 1px #e9ebe9; }
     .celulares div img {
       height: 150px; }
       .celulares div img:hover {
@@ -108,9 +124,9 @@ h1 {
 
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
-  background-color: #1877F2 !important; }
+  background-color: blanchedalmond; }
   .bg-body-tertiary a {
-    color: #F5C33B; }
+    color: black; }
 
 @media (max-width: 780px) {
   h1 {
@@ -250,7 +266,7 @@ h1 {
   width: 100%; }
 
 div {
-  border: solid grey 1px;
+  border: none;
   padding: 10px; }
 
 .main-pf a {
