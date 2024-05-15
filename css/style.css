@@ -55,15 +55,17 @@ h1 {
   flex-direction: row;
   align-items: center; }
 
-.main-index h1 {
-  border: none;
-  text-align: center;
-  color: #1877F2;
-  font-family: "Rubik Distressed", system-ui;
-  background-color: blanchedalmond;
-  position: sticky;
-  top: 0;
-  width: 100%; }
+.main-index {
+  min-height: 84vh; }
+  .main-index h1 {
+    border: none;
+    text-align: center;
+    color: #1877F2;
+    font-family: "Rubik Distressed", system-ui;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
+    width: 100%; }
 
 .zoom-bazar {
   display: flex;
@@ -145,36 +147,36 @@ h1 {
   display: flex;
   justify-content: space-evenly; }
 
-.main-contactos .camioneta img {
-  height: 50px;
-  width: 50px;
-  justify-content: center;
-  align-items: center; }
-
-.main-contactos .redes {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row; }
-
-.main-contactos h2 {
-  background-color: #1877F2;
-  color: black;
-  text-align: center;
-  font-family: "Parisienne", cursive; }
-
-.main-contactos h1 {
-  text-align: center;
-  color: #1877F2;
-  font-family: "Rubik Distressed", system-ui;
-  background-color: blanchedalmond;
-  position: sticky;
-  top: 0;
-  width: 100%; }
+.main-contactos {
+  min-height: 84vh; }
+  .main-contactos .camioneta img {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center; }
+  .main-contactos .redes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; }
+  .main-contactos h2 {
+    background-color: #1877F2;
+    color: black;
+    text-align: center;
+    font-family: "Parisienne", cursive; }
+  .main-contactos h1 {
+    text-align: center;
+    color: #1877F2;
+    font-family: "Rubik Distressed", system-ui;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
+    width: 100%; }
 
 .main-galeria {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  min-height: 84vh; }
   .main-galeria .grid-galeria {
     display: grid;
     grid-template-areas: "img1 img1 img2 img2" "img3 img4 img4 img6" "img3 img5 img5 img6";
@@ -244,26 +246,29 @@ h1 {
     grid-template-rows: repeat(6, 200px);
     grid-template-columns: 1fr; } }
 
-.main-nosotros h1 {
-  text-align: center;
-  color: #1877F2;
-  font-family: "Rubik Distressed", system-ui;
-  background-color: blanchedalmond;
-  position: sticky;
-  top: 0;
-  width: 100%; }
+.main-nosotros {
+  min-height: 84vh; }
+  .main-nosotros h1 {
+    text-align: center;
+    color: #1877F2;
+    font-family: "Rubik Distressed", system-ui;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
+    width: 100%; }
+  .main-nosotros .fondo-papel {
+    background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a"); }
 
-.main-nosotros .fondo-papel {
-  background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a"); }
-
-.main-pf h1 {
-  text-align: center;
-  color: #1877F2;
-  font-family: "Rubik Distressed", system-ui;
-  background-color: blanchedalmond;
-  position: sticky;
-  top: 0;
-  width: 100%; }
+.main-pf {
+  min-height: 90vh; }
+  .main-pf h1 {
+    text-align: center;
+    color: #1877F2;
+    font-family: "Rubik Distressed", system-ui;
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
+    width: 100%; }
 
 div {
   border: none;
