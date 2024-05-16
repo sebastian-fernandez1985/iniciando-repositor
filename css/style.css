@@ -149,6 +149,9 @@ h1 {
 
 .main-contactos {
   min-height: 84vh; }
+  .main-contactos .redes {
+    width: auto;
+    height: auto; }
   .main-contactos .camioneta img {
     height: 50px;
     width: 50px;
@@ -199,19 +202,23 @@ h1 {
     .main-galeria .grid-galeria .img-1 {
       grid-area: img1; }
       .main-galeria .grid-galeria .img-1 img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
     .main-galeria .grid-galeria .img-2 {
       grid-area: img2; }
       .main-galeria .grid-galeria .img-2 img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
     .main-galeria .grid-galeria .img-3 {
       grid-area: img3; }
       .main-galeria .grid-galeria .img-3 img {
-        height: 100%; }
+        height: 100%;
+        width: 100%; }
     .main-galeria .grid-galeria .img-4 {
       grid-area: img4; }
       .main-galeria .grid-galeria .img-4 img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
     .main-galeria .grid-galeria .img-5 {
       grid-area: img5; }
       .main-galeria .grid-galeria .img-5 img {

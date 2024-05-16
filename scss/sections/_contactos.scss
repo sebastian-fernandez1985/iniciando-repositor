@@ -1,6 +1,10 @@
 .main-contactos {
     min-height: 84vh;
     @extend .gradiente-horizontal;
+    .redes{
+        width: auto;
+        height: auto;
+    }
     .camioneta {
         img {
             height: 50px;
