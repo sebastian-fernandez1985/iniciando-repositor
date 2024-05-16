@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     min-height: 84vh;
-
+    @extend .gradiente-horizontal;
     .grid-galeria {
         display: grid;
         grid-template-areas:
@@ -15,7 +15,7 @@
 
         .img-1 {
             grid-area: img1;
-            background-color: cadetblue;
+            
 
             img {
                 width: 100%;
@@ -24,7 +24,7 @@
 
         .img-2 {
             grid-area: img2;
-            background-color: red;
+           
 
             img {
                 width: 100%;
@@ -33,7 +33,7 @@
 
         .img-3 {
             grid-area: img3;
-            background-color: brown;
+            
 
             img {
                 height: 100%;
@@ -42,7 +42,7 @@
 
         .img-4 {
             grid-area: img4;
-            background-color: blue;
+           
 
             img {
                 width: 100%;
@@ -51,7 +51,7 @@
 
         .img-5 {
             grid-area: img5;
-            background-color: chartreuse;
+            
 
             img {
                 width: 100%;
@@ -61,7 +61,7 @@
 
         .img-6 {
             grid-area: img6;
-            background-color: chocolate;
+           
 
             img {
                 height: 100%;

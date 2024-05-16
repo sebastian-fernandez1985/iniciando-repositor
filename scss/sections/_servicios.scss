@@ -1,5 +1,6 @@
 .main-pf {
     min-height: 90vh;
+    @extend .gradiente-horizontal;
     h1 {
         text-align: center;
         color: $celefixy;

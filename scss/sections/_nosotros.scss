@@ -1,16 +1,26 @@
-.main-nosotros{
+.main-nosotros {
+    @extend .gradiente-horizontal;
     min-height: 84vh;
-    h1{
-    text-align: center;
+
+    h1 {
+        text-align: center;
         color: $celefixy;
         font-family: $fuente-titulo;
         background-color: blanchedalmond;
         position: sticky;
         top: 0;
         width: 100%;
-}
 
-.fondo-papel {
-    background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a")
-}
+    }
+
+    section {display: flex;
+        -ms-flex-align: center;
+        div {
+            p {
+                width: 800px;
+                text-align: center;
+            }
+        }
+    }
+
 }

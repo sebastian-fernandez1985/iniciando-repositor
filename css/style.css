@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Rubik+Distressed&display=swap");
-.gradiente-horizontal, .zoom-bazar {
+.gradiente-horizontal, .zoom-bazar, .main-contactos, .main-galeria, .main-nosotros, .main-pf {
   background-image: linear-gradient(#1877F2, #F5C33B); }
 
 * {
@@ -197,34 +197,28 @@ h1 {
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(4, 300px); }
     .main-galeria .grid-galeria .img-1 {
-      grid-area: img1;
-      background-color: cadetblue; }
+      grid-area: img1; }
       .main-galeria .grid-galeria .img-1 img {
         width: 100%; }
     .main-galeria .grid-galeria .img-2 {
-      grid-area: img2;
-      background-color: red; }
+      grid-area: img2; }
       .main-galeria .grid-galeria .img-2 img {
         width: 100%; }
     .main-galeria .grid-galeria .img-3 {
-      grid-area: img3;
-      background-color: brown; }
+      grid-area: img3; }
       .main-galeria .grid-galeria .img-3 img {
         height: 100%; }
     .main-galeria .grid-galeria .img-4 {
-      grid-area: img4;
-      background-color: blue; }
+      grid-area: img4; }
       .main-galeria .grid-galeria .img-4 img {
         width: 100%; }
     .main-galeria .grid-galeria .img-5 {
-      grid-area: img5;
-      background-color: chartreuse; }
+      grid-area: img5; }
       .main-galeria .grid-galeria .img-5 img {
         width: 100%;
         height: 100%; }
     .main-galeria .grid-galeria .img-6 {
-      grid-area: img6;
-      background-color: chocolate; }
+      grid-area: img6; }
       .main-galeria .grid-galeria .img-6 img {
         height: 100%;
         width: 100%; }
@@ -270,8 +264,12 @@ h1 {
     position: sticky;
     top: 0;
     width: 100%; }
-  .main-nosotros .fondo-papel {
-    background-image: url("https://img.freepik.com/foto-gratis/textura-papel-rosa-arrugado_23-2147786574.jpg?w=360&t=st=1710956215~exp=1710956815~hmac=5616f0f32d284b7226d2a0e6a099fa722ced3a27166a169fab8eca06c2e79f2a"); }
+  .main-nosotros section {
+    display: flex;
+    -ms-flex-align: center; }
+    .main-nosotros section div p {
+      width: 800px;
+      text-align: center; }
 
 .main-pf {
   min-height: 90vh; }
