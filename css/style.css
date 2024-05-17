@@ -55,6 +55,11 @@ h1 {
   flex-direction: row;
   align-items: center; }
 
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    align-items: center; } }
+
 .main-index {
   min-height: 84vh; }
   .main-index h1 {
@@ -189,6 +194,11 @@ h1 {
       align-items: center;
       text-align: center; }
 
+@media (max-width: 775px) {
+  .main-contactos {
+    flex-direction: column;
+    align-items: center; } }
+
 .main-galeria {
   display: flex;
   flex-direction: column;
@@ -273,10 +283,21 @@ h1 {
     width: 100%; }
   .main-nosotros section {
     display: flex;
-    -ms-flex-align: center; }
+    flex-direction: column;
+    align-items: center; }
     .main-nosotros section div p {
       width: 800px;
-      text-align: center; }
+      text-align: center;
+      text-overflow: hidden; }
+    .main-nosotros section iframe {
+      display: flex;
+      -ms-flex-align: center;
+      flex-direction: column; }
+
+@media (max-width: 800px) {
+  .main-nosotros p {
+    text-align: center;
+    text-overflow: hidden; } }
 
 .main-pf {
   min-height: 90vh; }
