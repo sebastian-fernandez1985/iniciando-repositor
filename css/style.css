@@ -286,16 +286,22 @@ h1 {
     flex-direction: column;
     align-items: center; }
     .main-nosotros section div p {
-      width: 800px;
+      width: 100%;
       text-align: center;
       text-overflow: hidden; }
     .main-nosotros section iframe {
       display: flex;
       -ms-flex-align: center;
-      flex-direction: column; }
+      flex-direction: column;
+      padding: 10px; }
 
 @media (max-width: 800px) {
-  .main-nosotros p {
+  .main-nosotros section {
+    text-align: center;
+    text-overflow: hidden; } }
+
+@media (max-width: 475px) {
+  .main-nosotros section {
     text-align: center;
     text-overflow: hidden; } }
 
